@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: lightgray;
+  background: rgb(1,157,189);
+  background: radial-gradient(circle, rgba(1,157,189,1) 12%, rgba(21,21,215,1) 18%, rgba(0,209,186,0.3253676470588235) 92%); 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -20,26 +21,18 @@ body {
 }
 
 .titulo{
+  position: relative;
+  top: 150px;
   color: brown;
   font-style: italic;
   text-align: center;
   padding: 15px;
 }
 
-.box {
-  padding: 10px;
-  margin: 0 10px 0 10px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  background-color: white;
-  border-radius: 0.5em;
-  width: 30vw;
-  height: auto;
-}
-
 .boton{
-  margin: 1px;
+  margin: 0px;
   font-weight: bold;
-  background-color: darkgray;
+  background-color: skyblue;
   border-radius: 2px;
 }
 
@@ -48,4 +41,16 @@ body {
   border-radius: 20px;
   border: 1px solid darkred;
   display: block;
+}
+
+.sombreado{
+  background: rgb(1,157,189);
+  background: linear-gradient(15deg, rgba(1,157,189,1) 19%, rgba(21,21,215,1) 48%, rgba(0,209,186,1) 81%);
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  box-shadow: 5px 5px 5px 5px black;
+  border-radius: 10px;
 }
