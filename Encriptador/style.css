@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -8,14 +9,43 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.titulo{
+.main{
+  position: relative;
+  width: 80px;
+  height: 500px;
+  justify-content: center;
+  display: flex;
+  margin: auto;  
+  align-items: center;
+}
 
+.titulo{
+  color: brown;
+  font-style: italic;
+  text-align: center;
+  padding: 15px;
+}
+
+.box {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 0.5em;
+  width: 30vw;
+  height: auto;
 }
 
 .boton{
-
+  margin: 1px;
+  font-weight: bold;
+  background-color: darkgray;
+  border-radius: 2px;
 }
 
 .cuadroTexto{
-  
+  height: 75px;
+  border-radius: 20px;
+  border: 1px solid darkred;
+  display: block;
 }
