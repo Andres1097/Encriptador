@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" width="device-width" initial-scale="1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="contenedor">
+      <h1 class="contenedor--titulo">CODIGO SECRETO</h1>
+      <section class="contenedor__programa">
+        <div class="contenedor__programa__cuadros">
+          <label for="mensaje">Solo minúsculas, sin acento</label>
+          <textarea class="contenedor__programa--display" type="text" id="mensaje" placeholder="Ingrese mensaje aqui"></textarea>
+          <div>
+            <button class="contenedor__programa--boton" id="encriptar">Encriptar!</button>
+            <button class="contenedor__programa--boton" id="desencriptar">Desencriptar!</button>
+          </div>
+        </div>
+        <div class="contenedor__programa__cuadros">
+          <label for="resultado">Resultado</label>
+          <textarea class="contenedor__programa--display" type="text" id="resultado" disabled>-Mensaje codificado-</textarea>
+          <button class="contenedor__programa--boton">Copiar</button>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
